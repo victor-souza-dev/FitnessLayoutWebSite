@@ -1,0 +1,311 @@
+$principal: #d52856
+
+html
+    scroll-behavior: smooth
+
+body
+    width: 100%
+    height: 5000px
+
+p
+    margin-bottom: 0px !important
+
+a
+    cursor: pointer
+
+span
+    color: #888888
+    font-weight: 200
+
+ul
+    padding: 0px !important
+
+li
+    list-style: none
+
+h5
+    font-size: 1.6em !important
+
+.buttonsStandard
+    background-color: $principal !important
+    color: white !important
+    border-color: $principal !important
+
+.buttonsStandard:hover
+    background-color: #b52249 !important
+
+#container
+    width: 100%
+    height: 100%
+
+.header
+    width: 100%
+    height: 12.7%
+
+.header
+    background-color: black
+    
+.nav__logo
+    width: 100px
+
+.carousel-inner
+        height: 565px
+
+.carousel-item
+        height: 100%
+
+.carouselImages
+    width: 100%
+    height: 100% !important
+    height: 65.5vh
+    object-fit: cover
+    object-position: center top
+    opacity: 0.5
+
+.carouselContent
+    height: 200px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: start
+    text-align: start !important
+    margin-bottom: 30px
+
+.main
+    width: 100%
+    height: 85.5%
+
+.activities
+    width: 100%
+    height: 26.8%
+    display: flex
+    flex-flow: column wrap
+    justify-content: space-evenly
+
+.activities__conteiner
+    display: flex
+    flex-flow: column nowrap
+    justify-content: space-around
+    align-items: center
+    width: 100%
+    img
+        width: 140px
+        height: 140px
+        border-radius: 100%
+        transition: 1s
+    img:hover
+        transition: 1s
+        width: 200px
+        height: 200px
+    p
+        text-align: center
+        width: 80%
+    a
+        padding-top: 20px
+        text-decoration: none
+        color: black
+
+.motivationOne
+    width: 100%
+    height: 18.15%
+    background-color: black
+    img
+        background-image: url('../img/trilha.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        background-attachment: fixed
+
+
+.motivationTwo
+    width: 100%
+    height: 13.7%
+    background-color: black
+    img
+        background-image: url('../img/treino-praia.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: bottom
+        background-attachment: fixed
+
+.imagesMotivation
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+        width: 100%
+        height: 100%
+    p
+        color: white
+        font-size: 1.9rem
+        width: 50%
+        text-align: center
+        position: absolute
+
+.plans
+    width: 100%
+    height: 28.15%
+    padding: 0px 10px
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    flex-direction: column
+    text-align: center
+    .plans__card:nth-child(1)
+        height: 330px
+    .plans__card:nth-child(2)
+        height: 370px
+    .plans__card:nth-child(3)
+        height: 410px
+
+.card-body
+    display: flex
+    flex-flow: column nowrap
+    justify-content: space-between
+
+.card-title
+    font-size: 2em !important
+
+.plans__card-content
+    margin: 10px
+    font-size: 1.1em
+
+.plans__card
+    width: 100%
+    div:nth-child(1)
+        font-size: 1.5em
+        padding: 10px
+        font-weight: 200
+    button
+        width: 100%
+        font-size: 1.3em
+        
+
+.form
+    width: 100%
+    height: 10%
+    padding: 0px 10px
+    color: #a89f95
+    div
+        margin-bottom: 5px !important
+        label
+            font-size: 0.9em
+.titles
+    color: #515151
+    font-size: 1.8em
+    text-align: center
+    padding: 10px
+    margin-top: 20px
+    font-weight: 100
+
+.form__content
+    label:nth-child(2)
+        font-size: 0.9em
+    label:nth-child(3)
+        font-size: 0.8em
+        text-align: center
+
+.form
+    button
+        margin: 15px 0px
+
+.footer
+    width: 100%
+    height: 1.8%
+    background-color: #212529
+    padding: 20px 5%
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    font-size: 1em
+    color: white
+    p
+        width: 250px
+    span
+        width: 250px
+
+@media screen and ( min-width: 1000px )
+    body
+        height: 3300px
+
+    .header
+        height: 28.5%
+    
+    .carousel-inner
+        height: 870.9px
+    .carousel-item
+        height: 100%
+    .carouselContent
+        h5
+            font-size: 3em !important
+        p
+            font-size: 1.5em
+        button
+            margin: 20px 0px 0px 0px
+            font-size: 1.5em
+
+    .main
+        height: 69%
+
+    .footer
+        height: 2.5%
+        p
+            width: 350px
+
+    .activities
+        flex-flow: row wrap !important
+        height: 18%
+
+    .activities__conteiner
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 33.3%
+        height: 100%
+        p
+            width: 62%
+
+    .motivationOne
+        height: 14.1%
+
+    .titles
+        font-size: 2.3em
+        font-weight: 300
+        color: #515151
+        margin: 50px 0px 0px 0px
+
+    .plans
+        height: 21%
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: start
+        .plans__card
+            width: 28%
+            margin: 10px
+            div:nth-child(1)
+                font-size: 1.5em
+            .card-title
+                font-size: 2.1em !important
+            .plans__card-content
+                font-size: 1.1em
+        .plans__card:nth-child(1)
+            height: 360px
+        .plans__card:nth-child(2)
+            height: 400px
+        .plans__card:nth-child(3)
+            height: 440px
+        
+        
+
+    .motivationTwo
+        height: 18%
+        figure
+            img
+                object-position: bottom
+
+    .form
+        height: 25%
+        padding: 0px 100px
